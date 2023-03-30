@@ -1,0 +1,64 @@
+.bg{
+    opacity: 0.9;
+    transition: background-position 12s ease-in-out;
+    background-position: top center;
+
+}
+
+.bg:hover {
+    background-position: center bottom 10%;
+    
+}
+
+
+.bg2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    opacity: 0.9;
+    transition: background-position 0.5s ease-in-out;
+}
+
+.bg2:hover{
+    background-position: center bottom 5%;
+}
+
+
+.destaque{
+    color: aliceblue;
+}
+
+
+.bg3{
+    opacity: 0.9;
+    transition: background-position 15s ease-in-out;
+    background-position: top right;
+}
+
+.bg:hover {
+    background-position: center left 10%;
+    
+}
+
+.personalizado{
+display: inline-block;
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border-radius: 20px;
+font-size: 18px;
+text-decoration: none;
+}
+
+.personalizado:before{
+    content: "\f04b";
+    font-family: FontAwesome;
+    font-size: 24px;
+    color:#fff;
+    margin-right: 5px;
+}
+
+.four-imagens img:hover{
+opacity: 30%;
+
+}
